@@ -52,7 +52,7 @@
         ]
     },
     "aww": {
-        "description": "Maybe next time!",
+        "description": "Fine! I guess you like being monitored! You ruined the internet. Maybe next time!",
         "nextSteps": [
             {
                 "prompt": "bye",
