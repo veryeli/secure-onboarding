@@ -4,8 +4,8 @@
 ### Get started
 
 ```
-git clone git@github.com:imightbeamy/so-you-want-to-fight-the-state.git
-cd so-you-want-to-fight-the-state
+git clone https://github.com/eliawry/secure-onboarding.git
+cd secure-onboarding
 npm install
 npm start
 ```
