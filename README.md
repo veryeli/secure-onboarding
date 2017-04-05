@@ -1,4 +1,4 @@
-# So You Want to Fight the State: A How-to Guide
+# Freshet and WPLC onboarding
 
 
 ### Get started

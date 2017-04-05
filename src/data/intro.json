@@ -1,61 +1,63 @@
 {
     "start": {
-        "title": "So we hear you want to fight the state!",
+        "title": "WPLC & Freshet Onboarding",
+        "description": "Hi! You'd like to help support and defent Water Protectors, and that's awesome. There are some security steps you'll have to take before you get started working with Freshet and WPLC though.",
         "nextSteps": [
             {
-                "prompt": "Yes! I do.",
+                "prompt": "Let's get started!",
                 "step": "fight"
             },
             {
-                "prompt": "Not really...",
+                "prompt": "Why? What do we have to worry about? Why not just use gmail?",
                 "step": "learnMore"
             }
         ]
     },
     "learnMore": {
-        "title": "You should fight!",
+        "title": "Why use these complicated tools?",
+        "description": "The legacy of repression against indiginous and earth liberation movements is vast and brutal. Because these movements pose a fundamental challenge to the status quo, they have long been targets of coordinated and illegal targeting by federal law enforcement. By joining this struggle, you will have access to sensitive informatin that could put you or others at risk. The onboarding process is an introduction to more secure forms of communication that we can use to communicate effectively away from the prying eyes of the state.",
         "nextSteps": [
             {
-                "prompt": "Ok, I'll fight",
+                "prompt": "Ok, let's do it!",
                 "step": "fight"
             }
         ]
     },
     "fight": {
         "type": "menu",
-        "title": "How do you want to fight the state?",
+        "title": "Onboarding steps.",
         "topics": [
             {
-                "title": "organize",
-                "description": "I want to fight the state with my friends!",
+                "title": "Getting Started",
+                "description": "Communicate securely with your colleagues!",
                 "goals": [
                     {
-                        "title": "chit-chat",
+                        "title": "Signal",
                         "key": "signal"
                     },
                     {
-                        "title": "network",
+                        "title": "Riseup",
                         "key": "signalNetwork"
                     }
                 ]
             },
             {
-                "title": "travel",
-                "description": "I want to wander the world with my secrets safe from the state!",
+                "title": "Device Security",
+                "description": "I want my device to stay safe if it falls into the wrong hands!",
                 "goals": [
                     {
-                        "title": "encrypt",
+                        "title": "Encrypted Hard Drives",
                         "key": "encrypt"
                     },
                     {
-                        "title": "phone passcode",
+                        "title": "Phone Passcodes",
                         "key": "phonePasscode"
                     }
                 ]
             },
             {
                 "title": "self-defense",
-                "description": "I don't want the state to see what I see or to pretend to be me!",
+                "description": "I want to be able to read and encrypt my nifty new emails!",
                 "goals": [
                     {
                         "title": "strong passwords",
@@ -64,6 +66,10 @@
                     {
                         "title": "2 factor auth",
                         "key": "twofa"
+                    },
+                                        {
+                        "title": "Phone Encryped Email",
+                        "key": "signalNetwork"
                     }
                 ]
             },
