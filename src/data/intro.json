@@ -36,8 +36,12 @@
                         "key": "signal"
                     },
                     {
-                        "title": "Riseup",
+                        "title": "network",
                         "key": "signalNetwork"
+                    },
+                    {
+                        "title": "Riseup",
+                        "key": "riseup"
                     }
                 ]
             },
