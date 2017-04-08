@@ -1,0 +1,126 @@
+{
+    "start": {
+        "description": "It's pretty useful to be able to read and send encrypted email from your phone, but it can be difficult to set up. Are you ready to embark on a brave new journey?",
+        "nextSteps": [
+            {
+                "prompt": "Rad, let's encrypt!",
+                "step": "platform"
+            },
+            {
+                "prompt": "I'm not convinced I need to encrypt my phone.",
+                "step": "info"
+            }
+        ]
+    },
+    "platform": {
+        "description": "What kind of phone do you have?",
+        "nextSteps": [
+            {
+                "prompt": "Android.",
+                "step": "android"
+            },
+            {
+                "prompt": "iPhone!",
+                "step": "iphone"
+            },
+            {
+                "prompt": "My phone is already encrypted; did you think I was new?",
+                "step": "yay"
+            },
+            {
+                "prompt": "I only have a phone or a stick. No computer though.",
+                "step": "aww"
+            }
+        ]
+    },
+    "linux": {
+        "description": "Cool. You probably had an option to turn on full-disk encryption when you got started, and hopefully you did it. You'll know you have it on if you have to enter a password every time you turn on your computer. If you don't have it on, look up the directions for how to encrypt your hard drive for your distro. Sorry to not give you more in depth instructions, but if you are on Linux you probably don't need too much handholding tbqh.",
+        "nextSteps": [
+            {
+                "prompt": "It worked! I did the thing!",
+                "step": "yay"
+            },
+            {
+                "prompt": "I don't have enough time & I'm terrified of bricking my computer.",
+                "step": "aww"
+            }
+        ]
+    },
+    "windows": {
+        "description": "Some versions of Windows have a tool called BitLocker. This <a href='http://www.pcworld.com/article/2308725/encryption/a-beginners-guide-to-bitlocker-windows-built-in-encryption-tool.html'>article can help you get set up</a>!",
+        "nextSteps": [
+            {
+                "prompt": "I did it! My drive is protected with BitLocker!",
+                "step": "yay"
+            },
+            {
+                "prompt": "My version of Windows doesn't support BitLocker",
+                "step": "noBitLocker"
+            },
+            {
+                "prompt": "I don't have enough time & I'm terrified of bricking my computer.",
+                "step": "aww"
+            }
+        ]
+    },
+    "noBitLocker": {
+        "description": "Unfortunately your best option right now is to upgrade to a version of Windows that does support BitLocker. If you can't do that, you'll have to keep an eye out for something else to come along. There were some 3rd party options in the past, but none are currently recommended widely.",
+        "nextSteps": [
+            {
+                "prompt": "Sorry we couldn't help more :(",
+                 "restart": "true"
+            }
+        ]
+    },
+    "mac": {
+        "description": "You're in luck! Full disk encryption is built into OSX, so your job is easy: Just turn it on! Here's <a href='https://support.apple.com/en-us/HT204837'>a quick help article from Apple</a> to walk you through it. One quick note, we don't recommend having Apple store your password in iCloud. If you do and someone was able to access your iCloud account, they would be able to decrypt your computer. ",
+        "nextSteps": [
+            {
+                "prompt": "Sucess! I enabled FileVault!",
+                "step": "yay"
+            },            {
+                "prompt": "I'm a pro: My hard-drive was already encrypted!",
+                "step": "yay"
+            },
+            {
+                "prompt": "I don't have enough time & I'm terrified of bricking my computer.",
+                "step": "aww"
+            }
+        ]
+    },
+    "yay": {
+        "description": "Woohoo! Now your secrets are safe.",
+        "action": {
+            "type": "award",
+            "tweet": "I got a merit badge for encrypting my computer! pic.twitter.com/OpVToVyEAI Check out http://cutealism.com/fight"
+        },
+        "nextSteps": [
+            {
+                "prompt": "I want to do something else now!",
+                "restart": "true"
+            }
+        ]
+    },
+    "info": {
+        "description": "Fair enough, it's good to understand why things are important! The main reasons to encrypt your computer are if you lose it or you are worried someone you don't trust will have physical access to your computer. You’re more at risk of your computer falling into the wrong hands when you’re traveling, especially if you’re crossing a border. Here's <a href='https://theintercept.com/2015/04/27/encrypting-laptop-like-mean/'>an article with more information</a> about why you should encrypt your computer.",
+        "nextSteps": [
+            {
+                "prompt": "Ok, now I'm in!",
+                "step": "platform"
+            },
+            {
+                "prompt": "Nope, it's not for me.",
+                "step": "aww"
+            }
+        ]
+    },
+    "aww": {
+        "description": "Sorry we couldn't help you encrypt your computer :( ",
+        "nextSteps": [
+            {
+                "prompt": "bye",
+                "restart": "true"
+            }
+        ]
+    }
+}

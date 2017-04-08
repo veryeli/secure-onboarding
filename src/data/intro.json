@@ -1,7 +1,7 @@
 {
     "start": {
-        "title": "WPLC & Freshet Onboarding",
-        "description": "Hi! You'd like to help support and defent Water Protectors, and that's awesome. There are some security steps you'll have to take before you get started working with Freshet and WPLC though.",
+        "title": "Digital Movement Defense",
+        "description": "Hi! You'd like to help support and defend Water Protectors, and that's awesome. There are some security steps you might want to take to protect yourself, your comrades, and you loved ones.",
         "nextSteps": [
             {
                 "prompt": "Let's get started!",
@@ -60,16 +60,12 @@
                 "description": "I want to be able to read and encrypt my nifty new emails!",
                 "goals": [
                     {
-                        "title": "strong passwords",
+                        "title": "Managing Strong Passwords",
                         "key": "passwordManager"
                     },
                     {
-                        "title": "2 factor auth",
+                        "title": "2 Factor Authentication",
                         "key": "twofa"
-                    },
-                                        {
-                        "title": "Phone Encryped Email",
-                        "key": "signalNetwork"
                     }
                 ]
             },
@@ -78,7 +74,7 @@
                 "description": "I want to learn all kinds of stuff without the state knowing what I know!",
                 "goals": [
                     {
-                        "title": "secure browsing",
+                        "title": "Secure Browsing",
                         "key": "tor"
                     },
                     {
@@ -86,6 +82,19 @@
                         "key": "duckduckgo"
                     }
                 ]
+            },
+            {
+                "title": "advanced",
+                "description": "More advanced methods for movement defense",
+                "goals": [
+                    {
+                        "title": "getting-pgp",
+                        "key": "pgp"
+                    },
+                {
+                        "title": "PGP on your phone",
+                        "key": "phonePgp"
+                    }]
             }
         ]
     }
