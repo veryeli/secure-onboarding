@@ -13,7 +13,7 @@
         ]
     },
     "whattouse": {
-        "description": "It is bad! Particularly if you are fighting the state. A way to browse the internet without the state knowing who you are is to use Tor.",
+        "description": "It is bad! Particularly if you want to keep your information safe and not be the weak link of others information. A way to browse the internet without the state knowing who you are is to use Tor.",
         "nextSteps": [
             {
                 "prompt": "Tor?",
