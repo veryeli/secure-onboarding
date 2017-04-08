@@ -1,7 +1,7 @@
 {
     "start": {
         "title": "Digital Movement Defense",
-        "description": "Hi! You'd like to help support and defend Water Protectors, and that's awesome. There are some security steps you might want to take to protect yourself, your comrades, and you loved ones.",
+        "description": "Hi! So we hear you'd like to help support and defend Water Protectors, and that's awesome. There are some security steps you might want to take to protect yourself, your comrades, and loved ones.",
         "nextSteps": [
             {
                 "prompt": "Let's get started!",
@@ -15,7 +15,7 @@
     },
     "learnMore": {
         "title": "Why use these complicated tools?",
-        "description": "The legacy of repression against indiginous and earth liberation movements is vast and brutal. Because these movements pose a fundamental challenge to the status quo, they have long been targets of coordinated and illegal targeting by federal law enforcement. By joining this struggle, you will have access to sensitive informatin that could put you or others at risk. The onboarding process is an introduction to more secure forms of communication that we can use to communicate effectively away from the prying eyes of the state.",
+        "description": "The legacy of repression against indigenous and earth liberation movements is vast and brutal. Because these movements pose a fundamental challenge to the status quo, they have long been targets of coordinated and illegal targeting by federal law enforcement. By joining this struggle, you will have access to sensitive informatin. Handling that information securely will help make sure we dont put others at risk. The onboarding process is an introduction to more secure forms of communication that we can use to communicate effectively away from the prying eyes of the state.",
         "nextSteps": [
             {
                 "prompt": "Ok, let's do it!",
@@ -98,7 +98,12 @@
                 {
                         "title": "PGP on your phone",
                         "key": "phonePgp"
+                    },
+                    {
+                        "title": "Making a threat model",
+                        "key": "threat"
                     }]
+
             }
         ]
     }
