@@ -10,6 +10,9 @@ import duckduckgo from './data/duckduckgo.json';
 import phonePasscode from './data/phone-passcode.json';
 import tor from './data/tor.json';
 import twofa from './data/twofa.json';
+import pgp from './data/pgp.json';
+import phonePgp from './data/phone-pgp.json';
+import riseup from './data/riseup.json';
 
 import Step from './action/Step.js';
 import Navigation from './Navigation.js';
@@ -24,6 +27,9 @@ const data = {
   passwordManager: passwordManager,
   tor: tor,
   twofa: twofa,
+  riseup: riseup,
+  pgp: pgp,
+  phonePgp: phonePgp
 };
 
 class App extends Component {

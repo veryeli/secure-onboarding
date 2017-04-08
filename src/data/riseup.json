@@ -1,19 +1,27 @@
 {
     "start": {
-        "description": "It's pretty useful to be able to read and send encrypted email from your phone, but it can be difficult to set up. Are you ready to embark on a brave new journey?",
+        "description": "It's pretty useful to be able to read and send encrypted email from your phone, but it can be difficult to set up. An easy step to start having more secure email is to use the email provider Riseup and email client Thunderbird. Are you ready to embark on a brave new journey?",
         "nextSteps": [
             {
                 "prompt": "Rad, let's encrypt!",
                 "step": "platform"
             },
             {
-                "prompt": "I'm not convinced I need to encrypt my phone.",
+                "prompt": "I already have a riseup account, but not Thunderbird.",
+                "step": "platform"
+            },
+            {
+                "prompt": "I already have Thunderbird, but not a riseup account.",
+                "step": "platform"
+            },
+            {
+                "prompt": "I'm not convinced I need to encrypt my email.",
                 "step": "info"
             }
         ]
     },
     "platform": {
-        "description": "What kind of phone do you have?",
+        "description": "Cool, you want to set up Thunderbird and Riseup. Let's start with Riseup. This is one of the trickier steps in this activity; you need to already know someone with a Riseup account. When you send email over Riseup, you're sending it through the hands of trusted folks who are part of the movement. It's also encrypted, so even if they were subpeonaed or coerced Riseup wouldn't be able to hand your emails over to the state, just useless data. Finally, when you send emails from Riseup to Riseup, they're extra encrypted. The more folks you know using riseup, the safer your data is.",
         "nextSteps": [
             {
                 "prompt": "Android.",

@@ -9,3 +9,7 @@ cd secure-onboarding
 npm install
 npm start
 ```
+
+To add a new node:
+
+Let's say you want to add a new node on
