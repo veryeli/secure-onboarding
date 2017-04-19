@@ -4,7 +4,7 @@
         "nextSteps": [
             {
                 "prompt": "Rad, let's encrypt!",
-                "step": "platform"
+                "step": "both"
             },
             {
                 "prompt": "I already have a riseup account, but not Thunderbird.",
@@ -20,26 +20,25 @@
             }
         ]
     },
-    "platform": {
+    "both": {
         "description": "Cool, you want to set up Thunderbird and Riseup. Let's start with Riseup. This is one of the trickier steps in this activity; you need to already know someone with a Riseup account. When you send email over Riseup, you're sending it through the hands of trusted folks who are part of the movement. It's also encrypted, so even if they were subpeonaed or coerced Riseup wouldn't be able to hand your emails over to the state, just useless data. Finally, when you send emails from Riseup to Riseup, they're extra encrypted. The more folks you know using riseup, the safer your data is.",
         "nextSteps": [
             {
-                "prompt": "Android.",
+                "prompt": "Cool, I made a Riseup account.",
                 "step": "android"
             },
             {
-                "prompt": "iPhone!",
-                "step": "iphone"
+                "prompt": "I don't know anyone who has Riseup, what are my options?",
+                "step": "protonmail"
             },
             {
-                "prompt": "My phone is already encrypted; did you think I was new?",
-                "step": "yay"
-            },
-            {
-                "prompt": "I only have a phone or a stick. No computer though.",
+                "prompt": "This is all too much and I give up",
                 "step": "aww"
             }
         ]
+    },
+    "thunderbird": {
+        "description": "Time to install Thunderbird. Using Thunderbird as an email client is both secure and convenient. You get to keep your emails on your computer, which means you can access them offline. ",
     },
     "linux": {
         "description": "Cool. You probably had an option to turn on full-disk encryption when you got started, and hopefully you did it. You'll know you have it on if you have to enter a password every time you turn on your computer. If you don't have it on, look up the directions for how to encrypt your hard drive for your distro. Sorry to not give you more in depth instructions, but if you are on Linux you probably don't need too much handholding tbqh.",
@@ -123,7 +122,7 @@
         ]
     },
     "aww": {
-        "description": "Sorry we couldn't help you encrypt your computer :( ",
+        "description": "Sorry we couldn't help you set up secure email.",
         "nextSteps": [
             {
                 "prompt": "bye",
