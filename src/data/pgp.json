@@ -20,10 +20,6 @@
                 "step": "android"
             },
             {
-                "prompt": "iPhone!",
-                "step": "iphone"
-            },
-            {
                 "prompt": "My phone is already encrypted; did you think I was new?",
                 "step": "yay"
             },
