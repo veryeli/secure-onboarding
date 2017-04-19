@@ -1,6 +1,6 @@
 {
     "start": {
-        "description": "It's pretty useful to be able to read and send encrypted email from your phone, but it can be difficult to set up. Are you ready to embark on a brave new journey?",
+        "description": "It's pretty useful to be able to read and send encrypted email from your phone, but it can be challenging to set up. Are you ready to embark on a brave new journey?",
         "nextSteps": [
             {
                 "prompt": "Rad, let's encrypt!",

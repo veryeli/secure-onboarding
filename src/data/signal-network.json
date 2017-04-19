@@ -1,6 +1,6 @@
 {
     "start": {
-        "description": "So you wanna fight the state with your friends? Better be able to talk to them without the state listening in. The more of your friends use Signal, the less eavesdropping there will be. It's also awesome to get folks in your family or at your job to use encrypted messaging – the more people who use it, the more effective it is. You can just be talking about ice cream and hugs – no need to talk about smashing the state at all.",
+        "description": "So you want to help organize to keep Water Protectors free and safe? Better be able to talk to others without the snoopers listening in. The more of your friends use Signal, the more difficult eavesdropping will be. It's also awesome to get folks in your community to use encrypted messaging – the more people who use it, the more effective it is. You can just be talking about ice cream and hugs – no need to talk the black snake at all.",
         "nextSteps": [
             {
                 "prompt": "Let's go! I have friends!",
@@ -50,7 +50,7 @@
                 "step": "yay"
             },
             {
-                "prompt": "They still really have a lot of faith in gods and masters to keep them safe; I'll convince them secret keeping is hella convenient instead!",
+                "prompt": "They still really have a lot of faith in Drumpf to keep them safe; I'll convince them secret keeping is hella convenient instead!",
                 "step": "convenience"
             },
             {
@@ -60,7 +60,7 @@
         ]
     },
     "yay": {
-        "description": "Nice job! You're well on your way to subverting all kinds of state structures with your buds!",
+        "description": "Nice job! You're well on your way to subverting all kinds of bad stuff with your buds!",
         "action": {
             "type": "award",
             "tweet": "I got a merit badge for getting my friends to use Signal! pic.twitter.com/yiRN34SZrG Check out http://cutealism.com/fight"
