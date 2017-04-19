@@ -38,7 +38,7 @@
         ]
     },
     "thunderbird": {
-        "description": "Time to install Thunderbird. Using Thunderbird as an email client is both secure and convenient. You get to keep your emails on your computer, which means you can access them offline. ",
+        "description": "Time to install Thunderbird. Using Thunderbird as an email client is both secure and convenient. You get to keep your emails on your computer, which means you can access them offline."
     },
     "linux": {
         "description": "Cool. You probably had an option to turn on full-disk encryption when you got started, and hopefully you did it. You'll know you have it on if you have to enter a password every time you turn on your computer. If you don't have it on, look up the directions for how to encrypt your hard drive for your distro. Sorry to not give you more in depth instructions, but if you are on Linux you probably don't need too much handholding tbqh.",
